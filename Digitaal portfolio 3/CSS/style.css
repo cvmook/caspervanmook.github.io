@@ -1,0 +1,167 @@
+/* NAVBAR */
+
+#nav ul {
+    list-style-type: none;
+    float: right;
+}
+
+#nav ul li {
+    display: inline-block;
+    margin-right: 45px;
+    font-family: helvetica;
+    font-size: 15px;
+    letter-spacing: 2px;
+    transition: transform .2s;
+}
+
+#nav ul li:hover {
+    transform: scale(1.1);
+}
+
+#nav ul li a {
+    color: #fff;
+}
+
+#nav ul li .active {
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+}
+
+#logo {
+    margin-top: -18px;
+}
+
+body {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/IMG/duke1290.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/* HOMEPAGINA*/
+
+#container h1,
+h2,
+h3 {
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+}
+
+#container h2 {
+    margin-top: 150px;
+    text-align: center;
+    letter-spacing: 4px;
+    font-size: 350%;
+}
+
+#container h3 {
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 230%;
+    margin-top: -40px;
+}
+
+
+/* BUTTONS*/
+
+#button1 {
+    width: 150px;
+    height: 50px;
+    border: none;
+    border: solid 2px white;
+    transition: transform .2s;
+    border-radius: 40px;
+    background: rgba(255, 255, 255, 0);
+    font-size: 25px;
+    color: white;
+    margin-left: 590px;
+    margin-right: 25px;
+}
+
+#button1:hover {
+    transform: scale(1.1);
+}
+
+#button2 {
+    width: 150px;
+    height: 50px;
+    border: none;
+    border: solid 2px white;
+    transition: transform .2s;
+    border-radius: 40px;
+    background: rgba(255, 255, 255, 0);
+    font-size: 25px;
+    color: white;
+}
+
+#button2:hover {
+    transform: scale(1.1);
+}
+
+button:active {
+    outline: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+
+/* OVER MIJ PAGINA */
+
+#casper {
+    height: 400px;
+    width: auto;
+    margin-top: 1.5%;
+    margin-left: 3.5%;
+    border-radius: 20px;
+}
+
+#overmij {
+    font-size: 45px;
+    margin-left: 3.5%;
+    margin-top: 2%;
+}
+
+#overmijtekst {
+    font-family: 'Oswald';
+    color: white;
+    margin-top: -21%;
+    margin-left: 22%;
+    font-size: 28px;
+}
+
+
+/* CONTACTPAGINA */
+
+#contacttekst {
+    font-size: 45px;
+    margin-left: 3.5%;
+    margin-top: 2%;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
