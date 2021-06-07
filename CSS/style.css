@@ -1,0 +1,318 @@
+/* NAVBAR */
+
+#nav ul {
+    list-style-type: none;
+    float: right;
+}
+
+#nav ul li {
+    display: inline-block;
+    margin-right: 45px;
+    font-family: helvetica;
+    font-size: 20px;
+    letter-spacing: 2px;
+    transition: transform .2s;
+}
+
+#nav ul li:hover {
+    transform: scale(1.1);
+}
+
+#nav ul li a {
+    color: #fff;
+}
+
+#nav ul li .active {
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+}
+
+#logo {
+    margin-top: -18px;
+    height: 75px;
+    width: auto;
+}
+
+body {
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/motor.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/* ALGEMEEN*/
+
+.titel {
+    font-size: 45px;
+    margin-left: 3.5%;
+    margin-top: 2%;
+    font-family: 'Oswald';
+    color: #fff;
+}
+
+
+/* HOMEPAGINA*/
+
+#container h2,
+h3 {
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+}
+
+#container h2 {
+    margin-top: 200px;
+    text-align: center;
+    letter-spacing: 4px;
+    font-size: 50px;
+}
+
+#container h3 {
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 30px;
+    margin-top: -40px;
+}
+
+
+/* BUTTONS*/
+
+#button1 {
+    width: 120px;
+    height: 50px;
+    border: solid 2px white;
+    transition: transform .2s;
+    border-radius: 40px;
+    background: rgba(255, 255, 255, 0);
+    font-size: 20px;
+    color: white;
+    margin-left: 42%;
+    margin-right: 25px;
+}
+
+#button1:hover {
+    transform: scale(1.1);
+}
+
+#button2 {
+    width: 120px;
+    height: 50px;
+    border: none;
+    border: solid 2px white;
+    transition: transform .2s;
+    border-radius: 40px;
+    background: rgba(255, 255, 255, 0);
+    font-size: 20px;
+    color: white;
+}
+
+#button2:hover {
+    transform: scale(1.1);
+}
+
+button:active {
+    outline: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+
+/* OVER MIJ PAGINA */
+
+#casper {
+    height: 300px;
+    width: auto;
+    margin-top: 1.5%;
+    margin-left: 3.5%;
+    border-radius: 20px;
+}
+
+#overmijtekst {
+    font-family: 'Oswald';
+    color: white;
+    margin-top: -16%;
+    margin-left: 22%;
+    font-size: 28px;
+}
+
+
+/* PROJECTPAGINA */
+
+
+/* TELE4*/
+
+#tele4tekst {
+    font-family: 'Oswald';
+    color: white;
+    font-size: 40px;
+    margin-left: 60px;
+    margin-top: 70px;
+}
+
+#tele4beschrijving {
+    color: white;
+    font-family: 'Oswald';
+    margin-left: 60px;
+    font-size: 20px;
+}
+
+#tele4foto {
+    height: 200px;
+    width: 400px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+
+/* LEFTBRAINVSRIGHTBRAIN */
+
+#leftbrainvsrightbraintekst {
+    font-family: 'Oswald';
+    color: white;
+    font-size: 40px;
+    margin-left: 60px;
+    margin-top: 70px;
+}
+
+#leftbrainvsrightbrainbeschrijving {
+    color: white;
+    font-family: 'Oswald';
+    margin-left: 60px;
+    font-size: 20px;
+}
+
+#leftbrainvsrightbrainfoto {
+    height: 200px;
+    width: 400px;
+    margin-top: 40px;
+}
+
+
+/* KRINGLOOPWINKEL */
+
+#kringloopwinkeltekst {
+    font-family: 'Oswald';
+    color: white;
+    font-size: 40px;
+    margin-left: 60px;
+    margin-top: 70px;
+}
+
+#kringloopwinkelbeschrijving {
+    color: white;
+    font-family: 'Oswald';
+    margin-left: 60px;
+    font-size: 20px;
+}
+
+#kringloopwinkelfoto {
+    height: 200px;
+    width: 400px;
+    margin-top: 40px;
+}
+
+
+/* GAME DESIGN */
+
+#gametekst {
+    font-family: 'Oswald';
+    color: white;
+    font-size: 40px;
+    margin-left: 60px;
+    margin-top: 70px;
+}
+
+#gamebeschrijving {
+    color: white;
+    font-family: 'Oswald';
+    margin-left: 60px;
+    font-size: 20px;
+}
+
+#gamefoto {
+    height: 200px;
+    width: 400px;
+    margin-top: 40px;
+}
+
+
+/* MIRROR MIRROR */
+
+#mirrormirrortekst {
+    font-family: 'Oswald';
+    color: white;
+    font-size: 40px;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+#mirrormirrorbeschrijving {
+    color: white;
+    font-family: 'Oswald';
+    margin-left: 60px;
+    font-size: 20px;
+}
+
+#mirrormirrorfoto {
+    height: 200px;
+    width: 400px;
+    margin-top: 30px;
+}
+
+
+/* CONTACTPAGINA */
+
+.contactform {
+    margin-left: 80px;
+    margin-top: 60px;
+}
+
+input {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input[type=email],
+input[type=text] {
+    border-radius: 10px;
+    height: 40px;
+    width: 40%;
+}
+
+textarea {
+    width: 39%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    margin-bottom: 16px;
+    resize: vertical;
+    border-radius: 10px;
+}
+
+label {
+    font-family: 'Oswald';
+    color: white;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+input[type=submit] {
+    color: white;
+    padding: 12px 20px;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: transform .2s;
+    background: rgba(255, 255, 255, 0);
+}
+
+input[type=submit]:hover {
+    transform: scale(1.1);
+}
